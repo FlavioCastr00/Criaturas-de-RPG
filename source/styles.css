@@ -1,0 +1,198 @@
+body {
+    background-color: #46352E;
+    color: whitesmoke;
+    margin: 0;
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+h3 {
+    font-size: 4vh;
+}
+
+p, label, input {
+    font-size: 3vh;
+}
+
+.title-div, .main-container {
+    background-color: #332D2B;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    margin: 1vh auto 5vh;
+}
+
+.title-div {
+    width: 35%;
+    text-align: center;
+}
+
+.title-div hr {
+    width: 80%;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #FA3D00;
+}
+
+.main-container {
+    width: 80%;
+    display: flex;
+    gap: 8px;
+}
+
+.input-div {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.basic-info, .stats-info {
+    padding: 20px;
+    margin: 1vh auto;
+}
+
+/*Lado das informações básicas*/
+.basic-info {
+    width: 50%;
+}
+
+button {
+    border-radius: 0px;
+    border: none;
+    background-color: #FA3D00;
+    font-size: 2.5vh;
+    color: whitesmoke;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c03000;
+}
+
+.name-and-id {
+    display: flex;
+    gap: 1vw;
+}
+
+.basic-info-result {
+    margin-top: 3vh;
+    background-color: #241f1e;
+    padding: 2vw;
+}
+
+#basic-info-result {
+    display: none;
+}
+
+.passive {
+    margin: 3vh 0;
+}
+
+.passive p {
+    margin: 1vh 0;
+}
+
+
+/*Lado das informações especificas*/
+.stats-info {
+    width: 50%;
+}
+
+.main-container h3 {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin-top: 2vh;
+    background-color: #FA3D00;
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 3vh;
+}
+
+th, td {
+    border: 2px solid #332D2B;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #a12800;
+    text-align: center;
+}
+
+/*CSS para os tipos de criaturas*/
+#types {
+    display: flex;
+    margin: 0;
+}
+
+.type {
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    margin: 0.5vh;
+    font-size: 3vh;
+}
+
+.fire {
+    background-color: #9b0000;
+}
+
+.water {
+    background-color: #006f9b;
+}
+
+.rock, .steel {
+    background-color: #646464;
+}
+
+.electric {
+    background-color: #aca900;
+}
+
+.dragon {
+    background-color: #ff0000;
+}
+
+.grass {
+    background-color: #009b0d;
+}
+
+.poison, .psychic {
+    background-color: #43009b;
+}
+
+.ice {
+    background-color: #009edd;
+}
+
+.fairy {
+    background-color: #ff36cd;
+}
+
+.ground {
+    background-color: #9b5300;
+}
+
+.flying {
+    background-color: #41b3a3;
+}
+
+.bug {
+    background-color: #552d00;
+}
+
+.dark, .ghost {
+    background-color: #414141;
+}

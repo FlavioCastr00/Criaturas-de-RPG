@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Criaturas de RPG</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="title-div">
+                <h1>RPG Creatures</h1>
+                <hr class="title-hr">
+                <p>Search for RPG creatures using the <a href="https://rpg-creature-api.freecodecamp.rocks/" target="_blank">freeCodeCamp API!</a></p>
+            </div>
+            <div class="main-container">
+                <div class="basic-info">
+                    <form>
+                        <label for="search-input">Search a creature by <strong>NAME</strong> or <strong>ID</strong></label>
+                        <div class="input-div">
+                            <input type="text" id="search-input" required>
+                            <button id="search-button">Procurar</button>
+                        </div>
+                    </form>
+                    <div class="basic-info-result" id="basic-info-result">
+                        <div class="name-and-id">
+                            <h3 id="creature-name"></h3>
+                            <h3 id="creature-id"></h3>
+                        </div>
+                        <p id="weight"></p>
+                        <p id="height"></p>
+                        <div id="types">
+                            <!--Elementos div serão gerados aqui-->
+                        </div>
+                        <div class="passive">
+                            <h3 id="passive-name"></h3>
+                            <p id="passive-desc"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-info">
+                    <h3>Stats Information</h3>
+                    <table>
+                        <tr>
+                            <th>Stats</th>
+                            <th>Base</th>
+                        </tr>
+                        <tr>
+                            <td>HP</td>
+                            <td id="hp"></td>
+                        </tr>
+                        <tr>
+                            <td>Attack</td>
+                            <td id="attack"></td>
+                        </tr>
+                        <tr>
+                            <td>Defense</td>
+                            <td id="defense"></td>
+                        </tr>
+                        <tr>
+                            <td>Sp. Attack</td>
+                            <td id="special-attack"></td>
+                        </tr>
+                        <tr>
+                            <td>Sp. Defense</td>
+                            <td id="special-defense"></td>
+                        </tr>
+                        <tr>
+                            <td>Speed</td>
+                            <td id="speed"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
